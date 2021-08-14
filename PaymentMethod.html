@@ -1,0 +1,130 @@
+<html>
+<title>Payment Method</title>
+    <script>
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="PaymentMethod.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script type="text/javascript" src="validation.js"></script>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="Home.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Login.html">Login <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Register.html">Register</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="donateTo.php">Donate To</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="addDonation.html">Add New Donation</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="About%20us.html">About us</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+    
+        <div class="container">
+  <form action="#" name="pay" method="post">
+    <div class="row">
+      <div class="col-25">
+        <label for="cardNo">Card Number</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="Cardno" name="cardno" placeholder="Your Card Number.." data-toggle="tooltip" data-placement="top" title="15 numbers required">
+  
+          
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Holder">Card Holder Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="holder" name="holder" placeholder="Your Name is..">
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-25">
+        <label for="Donation-Amount">Amount</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="amount" name="amount" placeholder="Donation-Amount" data-toggle="tooltip" data-placement="top" title="The amount of money you want to donate">
+  
+          
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-25">
+        <label for="Expiration">Expiration Date</label>
+      </div>
+      <div class="col-75">
+        <input type="date" id="date" name="Date" placeholder="Your card Expiration date is..">
+      </div>
+    </div>
+      <div class="row">
+      <input type="submit" value="Submit" onclick="return validatePayment(document.pay.cardno,document.pay.holder , document.pay.amount , document.pay.Date);" >
+    </div>
+</form>
+        </div>
+        
+                <footer class="footer footer-transparent">
+            
+        <div class="container-fluid text-center">
+        <h1 id="follow">Follow us on</h1>
+        
+            <div class="row">
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-5x"></i></a></p>
+                </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.twitter.com"><i class="fab fa-twitter-square fa-5x"></i></a> </p>
+                </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.youtube.com"><i class="fab fa-youtube-square fa-5x"></i></a> </p>
+                </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.instagram.com"><i class="fab fa-instagram fa-5x"></i></a> </p>
+                </div>
+                </div>
+                            </div>
+         
+        <p class="text-center">Every penny counts </p>
+            </div>
+                
+        <!-- End SocialMedia Section-->
+    <!-- Start Footer -->
+    
+                
+    </footer>
+    
+            
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+        
+    </body>
+</html>

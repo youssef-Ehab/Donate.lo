@@ -1,0 +1,54 @@
+.header {
+    background-image: url("Don.jpg");
+    height: 400px;
+    background-position: center;
+    color: white;
+}
+a{
+color: black;
+}
+
+.opacity {
+    background-color: rgba(2,2,2,0.7);
+    height: 400px;
+}
+
+    .opacity h1 {
+        padding-top: 60px;
+        margin: auto;
+    }
+
+/*End Header*/
+
+/*Start Team*/
+.person img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.team h1
+{
+    text-align:center;
+}
+.team h1
+{
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+/*End Team*/
+body{
+    margin: auto;
+    width: 100%;
+
+}
+ .container-fluid{
+                min-height: 170px;
+                color: white;
+                padding-top: 20px;
+            }
+
+            .container-fluid h1{
+                text-align: center;
+                color: white;
+            }

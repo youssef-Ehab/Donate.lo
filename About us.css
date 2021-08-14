@@ -1,0 +1,65 @@
+#first{ 
+    margin-bottom: 52px;
+    font-size: 50;
+    color:black;
+}
+a{
+color: black;
+}
+
+.header{
+    height: auto;
+    margin:auto;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: gainsboro;
+}
+.header h1{
+    margin-top: 30px;
+    text-align:center;
+    color: #000;
+    font-family: calibri;
+    font-size: 50px;
+}
+.about {
+    margin-top: 40px;
+    margin-left: 50px;
+    text-align: center;
+    overflow:hidden; 
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+    
+}
+.Contact{
+    padding-left: 20px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+.navbar{
+    width: 100%;
+}
+footer{
+margin-right: 90px;
+    background-color: gainsboro;
+    width: 100%;
+    
+}
+.container-fluid{
+                min-height: 170px;
+                color: black;
+                padding-top: 20px;
+            }
+ .row{
+padding-left: 200;   
+    
+}
+#text{
+    font-size: 24px;
+    color: black;
+}

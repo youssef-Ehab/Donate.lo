@@ -1,0 +1,121 @@
+-- ****************** SqlDBM: MySQL ******************;
+-- ***************************************************;
+
+
+-- ************************************** `donor`
+
+CREATE TABLE `donor`
+(
+ `email`      varchar(320) NOT NULL ,
+ `first_name` varchar(45) NOT NULL ,
+ `last_name`  varchar(45) NOT NULL ,
+ `password`   char(60) NOT NULL ,
+ `country`    enum('egypt', 'syria', 'palestine') NOT NULL ,
+
+PRIMARY KEY (`email`)
+);
+
+
+
+
+
+
+-- ************************************** `donee`
+
+CREATE TABLE `donee`
+(
+ `email`      varchar(320) NOT NULL ,
+ `first_name` varchar(45) NOT NULL ,
+ `last_name`  varchar(45) NOT NULL ,
+ `password`   char(60) NOT NULL ,
+ `country`    enum('egypt', 'syria', 'palestine') NOT NULL ,
+
+PRIMARY KEY (`email`)
+);
+
+
+
+
+
+
+-- ************************************** `token`
+
+CREATE TABLE `token`
+(
+ `token_id`    varchar(45) NOT NULL ,
+ `expiry_date` datetime NOT NULL ,
+ `email`       varchar(320) NOT NULL ,
+
+PRIMARY KEY (`token_id`, `email`),
+KEY `fkIdx_64` (`email`),
+CONSTRAINT `doner-token-relationship` FOREIGN KEY `fkIdx_64` (`email`) REFERENCES `donor` (`email`)
+);
+
+
+
+
+
+
+-- ************************************** `payment_info`
+
+CREATE TABLE `payment_info`
+(
+ `email`       varchar(320) NOT NULL ,
+ `card_number` varchar(15) NOT NULL ,
+ `holder_name` varchar(45) NOT NULL ,
+ `expiry_date` datetime NOT NULL ,
+
+PRIMARY KEY (`email`),
+KEY `fkIdx_53` (`email`),
+CONSTRAINT `donor-payment-relationship` FOREIGN KEY `fkIdx_53` (`email`) REFERENCES `donor` (`email`)
+);
+
+
+
+
+-- ************************************** `donate_to`
+
+CREATE TABLE `donate_to`
+(
+ `email`            varchar(320) NOT NULL ,
+ `donate_to_id`     int unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+ `required_amount`  int NOT NULL ,
+ `remaining_amount` int NOT NULL ,
+ `expiry_date`      datetime NOT NULL ,
+ `title`            varchar(45) NOT NULL ,
+ `description`      varchar(1000) NOT NULL ,
+
+KEY `fkIdx_17` (`email`),
+CONSTRAINT `donee-donate_to-relationship` FOREIGN KEY `fkIdx_17` (`email`) REFERENCES `donee` (`email`)
+);
+
+
+
+
+
+
+-- ************************************** `donations`
+
+CREATE TABLE `donations`
+(
+ `donations_id`     int unsigned NOT NULL AUTO_INCREMENT ,
+ `donee_email`      varchar(320) NOT NULL ,
+ `donate_to_id`     int unsigned NOT NULL ,
+ `donor_email`      varchar(320) NOT NULL ,
+ `amount`           int NOT NULL ,
+ `transaction_date` datetime NOT NULL ,
+
+PRIMARY KEY (`donations_id`),
+KEY `fkIdx_36` (`donee_email`, `donate_to_id`),
+CONSTRAINT `donat_to-donations-relationship` FOREIGN KEY `fkIdx_3donor6` (`donee_email`, `donate_to_id`) REFERENCES `donate_to` (`email`, `donate_to_id`),
+KEY `fkIdx_43` (`donor_email`),
+CONSTRAINT `donor-donations-relationship` FOREIGN KEY `fkIdx_43` (`donor_email`) REFERENCES `donor` (`email`)
+);
+
+
+
+
+
+
+
+

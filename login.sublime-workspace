@@ -1,0 +1,360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isPasswordValid"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"Sele",
+				"SELECT"
+			],
+			[
+				"Ima",
+				"ImageRequires"
+			],
+			[
+				"pus",
+				"pushBody"
+			],
+			[
+				"send",
+				"sendPushNotification"
+			],
+			[
+				"de",
+				"deviceID"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"YOU",
+				"YOUR_PUSH_TOKEN"
+			],
+			[
+				"Yo",
+				"YOUR_PUSH_TOKEN"
+			],
+			[
+				"get",
+				"getConnection"
+			],
+			[
+				"_",
+				"_array"
+			],
+			[
+				"vLue",
+				"values"
+			],
+			[
+				"task",
+				"taskID"
+			],
+			[
+				"reco",
+				"recordingDuration"
+			],
+			[
+				"duration",
+				"durationMillis"
+			],
+			[
+				"total",
+				"totalDuration"
+			],
+			[
+				"exec",
+				"executeSql"
+			],
+			[
+				"asyn",
+				"asyncForEach"
+			],
+			[
+				"dire",
+				"directoryContents"
+			],
+			[
+				"saved",
+				"savedExists"
+			],
+			[
+				"dir",
+				"directoryName"
+			],
+			[
+				"taks",
+				"taskID"
+			],
+			[
+				"navi",
+				"navigation"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Tas",
+				"taskDesc"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fetch",
+				"fetchData"
+			],
+			[
+				"_d",
+				"_deleteAllFromDatabase"
+			],
+			[
+				"save",
+				"savedPath"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/moustafa/quran-recording-app/credentials.js",
+		"/home/moustafa/quran-recording-app/routes.js",
+		"/media/moustafa/01D110BE9FE216C0/donation-database.txt",
+		"/home/moustafa/donations-project/validation.js",
+		"/home/moustafa/donations-project/ninja_turtles.php",
+		"/home/moustafa/donations-project/config.php",
+		"/home/moustafa/donations-project/connect.php",
+		"/home/moustafa/IT labs/style.css",
+		"/home/moustafa/sqlite-example/App.js",
+		"/home/moustafa/pushnotifications34/App.js",
+		"/home/moustafa/pushnotifications34/app.json",
+		"/home/moustafa/quran-recording-app/App.js",
+		"/home/moustafa/quran-recording-app/package.json",
+		"/home/moustafa/quran-recording-app/app.json",
+		"/home/moustafa/quran-recording-app/screens/FinishRegisterScreen.js",
+		"/home/moustafa/quran-recording-app/screens/RegisterScreen.js",
+		"/home/moustafa/quran-recording-app/assets/image_requires.js",
+		"/home/moustafa/quran-recording-app/screens/InitialScreen.js",
+		"/home/moustafa/quran-recording-app/screens/SkillsScreen.js",
+		"/home/moustafa/quran-recording-app/screens/LoginScreen.js",
+		"/home/moustafa/quran-recording-app/screens/HomeScreen.js",
+		"/home/moustafa/quran-recording-app/screens/TaskScreen.js",
+		"/home/moustafa/quran-recording-app/screens/LearnMoreScreen.js",
+		"/home/moustafa/IT labs/task.html",
+		"/home/moustafa/IT labs/task2.html",
+		"/home/moustafa/routes.js",
+		"/home/moustafa/IT labs/3divs.css",
+		"/home/moustafa/IT labs/3divs.html",
+		"/home/moustafa/Downloads/routes.js",
+		"/home/moustafa/pushnotifications34/package.json",
+		"/home/moustafa/quran-recording-app/screens/credentials.js",
+		"/home/moustafa/quran-recording-app/components/OnSubmitValidationError.js",
+		"/home/moustafa/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/home/moustafa/DeadSimpleSpeechRecognizer/model.py",
+		"/home/moustafa/t1/data/model.py",
+		"/home/moustafa/DeadSimpleSpeechRecognizer/DeadSimpleSpeechRecognition.ipynb"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "login.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 345.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 539.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

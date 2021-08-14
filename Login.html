@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Login.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="Home.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Login.html">Login <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Register.html">Register</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="addDonation.html">Donate To</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="addDonation.php">Add New Donation</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="About%20us.html">About us</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+   
+        <div class="container">
+  <form action="#" name="login" method="post" >
+    <div class="row">
+      <div class="col-25">
+        <label for="email">E-mail</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="mail" name="Email" placeholder="Your E-mail..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Password">Password</label>
+      </div>
+      <div class="col-75">
+        <input type="password" id="pw" name="password" placeholder="Your Password..">
+      </div>
+    </div>
+      <div class="row">
+      <input name="submit" type="submit" value="Submit" onclick="validateLogin(document.login.Email,document.login.password)" >
+    </div>
+</form>
+        </div>
+        
+                <footer class="footer footer-transparent">
+        
+            
+        <div class="container-fluid text-center">
+            <center><h1 class="hh">Follow us on</h1></center>
+        
+            <div class="row">
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-5x"></i></a></p>
+                </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.twitter.com"><i class="fab fa-twitter-square fa-5x"></i></a> </p>
+                </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.youtube.com"><i class="fab fa-youtube-square fa-5x"></i></a> </p>
+                </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.instagram.com"><i class="fab fa-instagram fa-5x"></i></a> </p>
+                </div>
+                </div>
+                 <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.reddit.com"><i class="fab fa-reddit-square fa-5x"></i></a> </p>
+                </div>
+                </div>
+                 <div class="col-lg-2 col-md-6">
+                <div class="social">
+                    <p class="lead"><a href="https://www.gmail.com"><i class="fas fa-envelope fa-5x"></i></a> </p>
+                </div>
+                </div>
+                            </div>
+         
+            </div>
+                
+        <!-- End SocialMedia Section-->
+    <!-- Start Footer -->
+    
+
+                
+    </footer>    
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+        <script type="text/javascript" src="validation.js"></script>
+    </body>
+</html>
